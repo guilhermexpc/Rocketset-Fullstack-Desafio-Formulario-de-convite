@@ -1,0 +1,73 @@
+:root {
+  /* Colors */
+  --brand-light: #59b2ff;
+  --brand-mid: #3487cf;
+  --brand-dark: #1d6fb6;
+
+  /* Accent*/
+  --accent-purple: #b259ff;
+  --accent-fuschia: #ff59f9;
+  --accent-pink: #ff598b;
+  --accent-orange: #ff8b59;
+  --accent-yellow: #ffcd59;
+
+  --accent-lime: #e1ff59;
+  --accent-green: #59ff91;
+  --accent-cyan: #59fff9;
+  --accent-navy: #6a59ff;
+
+  --alert-danger: #ff5959;
+  /* Input*/
+  --input-base: #1c1f21;
+  --input-stroke: #363b40;
+  --input-placeholder: #869198;
+
+  --shape-background: #131516;
+  --shape-body: #212427;
+  --shape-button: #2d3136;
+  --shape-hover: #383d42;
+
+  --color-text-body: #c8cdd0;
+  --color-text-heading: #f9f9f9;
+
+  /* Font */
+  --font-family-Leckerli: "Leckerli One", cursive;
+  --font-family-Baloo: "Baloo 2", sans-serif;
+  --font-family-OpenSans: "Open Sans", sans-serif;
+
+  --text-logo: 2.5rem auto regular var(--font-family-Leckerli);
+  --text-heading-md: 1.75rem auto bold var(--font-family-Baloo);
+  --text-heading-sm: 1.125rem auto bold var(--font-family-Baloo);
+
+  --font-text-md: 1rem auto regular var(--font-family-OpenSans);
+  --font-text-sm: 0.875rem auto regular var(--font-family-OpenSans);
+  --font-text-xsm: 0.75rem auto regular var(--font-family-OpenSans);
+  --font-text-default: var(--text-md);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: var(--text-default);
+  color: var(--color-text-body);
+  background-color: var(--shape-background);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
