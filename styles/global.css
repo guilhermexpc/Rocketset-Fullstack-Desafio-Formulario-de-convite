@@ -43,6 +43,8 @@
   --font-text-sm: 0.875rem auto regular var(--font-family-OpenSans);
   --font-text-xsm: 0.75rem auto regular var(--font-family-OpenSans);
   --font-text-default: var(--text-md);
+
+  
 }
 
 * {

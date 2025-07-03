@@ -3,16 +3,9 @@
 }
 .main-layout {
   display: grid;
-  /* Aside 400px - 820*/
-  grid-template-columns: 31.25% 64.063%;
+  /* Aside 400px - 820*/  
   grid-template-columns: 32.259% 66.13%;
-  height: 100vh;
-}
-.aside-container {
-  width: 400px;
-  height: 100vh;
-  background-image: url("../src/Background.png");    
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: lightgray
+  justify-content: space-evenly;
+  height: 100vh;  
+  gap: 20px;
 }
