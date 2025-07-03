@@ -1,0 +1,20 @@
+.text-logo {
+  font: var(--font-text-logo);
+  color: var(--accent-pink);
+}
+
+.text-heading-primary {
+  font: var(--font-text-heading-md);
+  color: var(--color-text-heading);
+}
+
+.text-heading-secondary {
+  font: var(--font-text-default);
+  color: var(--color-text-heading);
+  font-weight: normal;
+}
+
+.text-default {
+  font: var(--font-text-default);
+  color: var(--color-text-body);
+}

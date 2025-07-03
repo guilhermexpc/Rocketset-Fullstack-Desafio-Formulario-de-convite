@@ -1,11 +1,21 @@
 .container {
-  padding: 20px;
+  padding: 1.25rem;
 }
-.main-layout {
+
+.main-container {
   display: grid;
-  /* Aside 400px - 820*/  
+  /* Aside 400px - 820*/
   grid-template-columns: 32.259% 66.13%;
   justify-content: space-evenly;
-  height: 100vh;  
-  gap: 20px;
+  height: 100vh;
+  gap: 1.25rem;
+}
+
+.main-content {
+  padding-block: 5rem;
+  padding-inline: 8.125rem;
+}
+
+.main-form {
+  margin-top: 40px;
 }

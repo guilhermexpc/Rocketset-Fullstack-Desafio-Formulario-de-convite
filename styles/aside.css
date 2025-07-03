@@ -1,7 +1,36 @@
 .aside-container {
+  position: relative;
   width: 100%;
   height: 728px;
-  background-image: url("../src/Background.png");    
+  background-image: url("../src/Background.png");
   background-size: contain;
   background-repeat: no-repeat;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.aside-container > img {
+  width: 2.813rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+  z-index: 1;
+}
+
+.aside-container h2 {
+  margin-bottom: 0.5rem;
+  z-index: 1;
+}
+
+.aside-image-shadow {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(33, 37, 38, 0.8) 0%,
+    rgba(33, 37, 38, 0.65) 20%,
+    rgba(33, 37, 38, 0.3) 40.5%,
+    rgba(33, 37, 38, 0.1) 100%
+  );
+  z-index: 0;
 }
