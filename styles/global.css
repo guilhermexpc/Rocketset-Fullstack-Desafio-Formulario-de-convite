@@ -33,7 +33,7 @@
 
   --filter-input-placeholder: invert(60%) sepia(21%) saturate(155%) hue-rotate(160deg) brightness(90%) contrast(93%);
 
-  --brand-light: invert(42%) sepia(91%) saturate(728%) hue-rotate(155deg) brightness(99%) contrast(101%);
+  --filter-brand-light: invert(42%) sepia(91%) saturate(728%) hue-rotate(155deg) brightness(99%) contrast(101%);
 
   /* Font */
   --font-family-Leckerli: "Leckerli One", cursive;
@@ -84,6 +84,10 @@ h1 {
 h2 {
   font: var(--font-text-heading-md);
   color: var(--color-text-heading);
+}
+
+input {
+  outline: none;
 }
 
 label {

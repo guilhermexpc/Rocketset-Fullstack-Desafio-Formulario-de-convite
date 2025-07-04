@@ -64,7 +64,7 @@
 }
 
 .input-radio-content:has(:checked) img {
-  filter: var(--brand-light);
+  filter: var(--filter-brand-light);
 }
 
 .input-radio-content > img {

@@ -34,18 +34,18 @@
 
             <div class="input">
               <label for="event-name">Titulo</label>
-              <input type="text" id="event-name" placeholder="Nome do evento" />
+              <input type="text" id="event-name" placeholder="Nome do evento" required />
             </div>
 
             <div class="data-container">
               <div class="input">
                 <label for="event-date-start">Inicio</label>
-                <input type="datetime-local" id="event-date-start" />
+                <input type="datetime-local" id="event-date-start" required />
               </div>
 
               <div class="input">
                 <label for="event-date-end">Fim</label>
-                <input type="datetime-local" id="event-date-end" />
+                <input type="datetime-local" id="event-date-end" required />
               </div>
             </div>
 
@@ -68,8 +68,18 @@
 
               <div class="input">
                 <label for="event-locatio">Local</label>
-                <input type="text" id="event-locatio" placeholder="Link do endereço" />
+                <input type="text" id="event-locatio" placeholder="Link do endereço" required />
               </div>
+            </div>
+
+            <div class="input">
+              <label for="event-description">Descrição</label>
+              <textarea
+                name="event-description"
+                id="event-description"
+                rows="5"
+                placeholder="Escreva sobre os detalhes do evento"
+              ></textarea>
             </div>
           </fieldset>
         </form>
