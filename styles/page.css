@@ -4,6 +4,7 @@
 
 .main-container {
   display: grid;
+
   /* Aside 400px - 820*/
   grid-template-columns: 32.259% 66.13%;
   justify-content: space-evenly;
@@ -12,10 +13,12 @@
 }
 
 .main-content {
+  background-color: var(--color-shape-body);
+  border-radius: 0.75rem;
   padding-block: 5rem;
   padding-inline: 8.125rem;
 }
 
 .main-form {
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }

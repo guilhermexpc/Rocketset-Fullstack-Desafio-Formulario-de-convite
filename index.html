@@ -23,9 +23,56 @@
           <p class="text-heading-secondary">Crie um convite digital para o seu evento</p>
         </div>
       </aside>
-      <main class="main-content bg-debug1">
+      <main class="main-content">
         <h1>Crie seu convite</h1>
-        <form action="" class="main-form"></form>
+        <form action="" class="main-form">
+          <fieldset id="event-field">
+            <div class="fieldset-header">
+              <img src="src/icons/calendar.svg" alt="" />
+              <h2>Sobre o evento</h2>
+            </div>
+
+            <div class="input">
+              <label for="event-name">Titulo</label>
+              <input type="text" id="event-name" placeholder="Nome do evento" />
+            </div>
+
+            <div class="data-container">
+              <div class="input">
+                <label for="event-date-start">Inicio</label>
+                <input type="datetime-local" id="event-date-start" />
+              </div>
+
+              <div class="input">
+                <label for="event-date-end">Fim</label>
+                <input type="datetime-local" id="event-date-end" />
+              </div>
+            </div>
+
+            <div class="type-location-container">
+              <div class="input">
+                <label>Tipo</label>
+                <div class="input-radio-container">
+                  <div class="input-radio-content">
+                    <img src="src/icons/building-2.svg" alt="" />
+                    <label for="event-type">Presencial</label>
+                    <input type="radio" id="event-type" name="event-type" checked />
+                  </div>
+                  <div class="input-radio-content">
+                    <img src="src/icons/video.svg" alt="" />
+                    <label for="event-type">Online</label>
+                    <input type="radio" id="event-type" name="event-type" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="input">
+                <label for="event-locatio">Local</label>
+                <input type="text" id="event-locatio" placeholder="Link do endereço" />
+              </div>
+            </div>
+          </fieldset>
+        </form>
       </main>
     </div>
   </body>

@@ -18,18 +18,22 @@
 
   --alert-danger: #ff5959;
   /* Input*/
-  --input-base: #1c1f21;
-  --input-stroke: #363b40;
-  --input-placeholder: #869198;
+  --color-input-base: #1c1f21;
+  --color-input-stroke: #363b40;
+  --color-input-placeholder: #869198;
 
-  --background: #1e1e1e;
-  --shape-background: #131516;
-  --shape-body: #212427;
-  --shape-button: #2d3136;
-  --shape-hover: #383d42;
+  --color-background: #1e1e1e;
+  --color-shape-background: #131516;
+  --color-shape-body: #212427;
+  --color-shape-button: #2d3136;
+  --color-shape-hover: #383d42;
 
   --color-text-body: #c8cdd0;
   --color-text-heading: #f9f9f9;
+
+  --filter-input-placeholder: invert(60%) sepia(21%) saturate(155%) hue-rotate(160deg) brightness(90%) contrast(93%);
+
+  --brand-light: invert(42%) sepia(91%) saturate(728%) hue-rotate(155deg) brightness(99%) contrast(101%);
 
   /* Font */
   --font-family-Leckerli: "Leckerli One", cursive;
@@ -54,7 +58,7 @@
 body {
   font: var(--font-text-md);
   color: var(--color-text-body);
-  background-color: var(--shape-background);
+  background-color: var(--color-shape-background);
 }
 
 a {
