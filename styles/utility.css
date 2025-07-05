@@ -1,6 +1,6 @@
 .text-logo {
   font: var(--font-text-logo);
-  color: var(--accent-pink);
+  color: var(--color-accent-pink);
 }
 
 .text-heading-primary {
@@ -17,4 +17,44 @@
 .text-default {
   font: var(--font-text-default);
   color: var(--color-text-body);
+}
+
+.color-brand-light {
+  background-color: var(--color-brand-light);
+}
+
+.color-accent-purple {
+  background-color: var(--color-accent-purple);
+}
+
+.color-accent-navy {
+  background-color: var(--color-accent-navy);
+}
+
+.color-accent-fuschia {
+  background-color: var(--color-accent-fuschia);
+}
+
+.color-accent-pink {
+  background-color: var(--color-accent-pink);
+}
+
+.color-accent-orange {
+  background-color: var(--color-accent-orange);
+}
+
+.color-accent-yellow {
+  background-color: var(--color-accent-yellow);
+}
+
+.color-accent-lime {
+  background-color: var(--color-accent-lime);
+}
+
+.color-accent-green {
+  background-color: var(--color-accent-green);
+}
+
+.color-accent-cyan {
+  background-color: var(--color-accent-cyan);
 }

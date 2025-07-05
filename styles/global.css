@@ -1,22 +1,22 @@
 :root {
   /* Colors */
-  --brand-light: #59b2ff;
-  --brand-mid: #3487cf;
-  --brand-dark: #1d6fb6;
+  --color-brand-light: #59b2ff;
+  --color-brand-mid: #3487cf;
+  --color-brand-dark: #1d6fb6;
 
   /* Accent*/
-  --accent-purple: #b259ff;
-  --accent-fuschia: #ff59f9;
-  --accent-pink: #ff598b;
-  --accent-orange: #ff8b59;
-  --accent-yellow: #ffcd59;
+  --color-accent-navy: #6a59ff;
+  --color-accent-purple: #b259ff;
+  --color-accent-fuschia: #ff59f9;
+  --color-accent-pink: #ff598b;
+  --color-accent-orange: #ff8b59;
+  --color-accent-yellow: #ffcd59;
 
-  --accent-lime: #e1ff59;
-  --accent-green: #59ff91;
-  --accent-cyan: #59fff9;
-  --accent-navy: #6a59ff;
+  --color-accent-lime: #e1ff59;
+  --color-accent-green: #59ff91;
+  --color-accent-cyan: #59fff9;
 
-  --alert-danger: #ff5959;
+  --color-alert-danger: #ff5959;
   /* Input*/
   --color-input-base: #1c1f21;
   --color-input-stroke: #363b40;
@@ -93,6 +93,7 @@ input {
 label {
   font: var(--font-text-sm);
   color: var(--color-text-body);
+  display: block;
 }
 
 .container {

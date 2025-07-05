@@ -30,6 +30,16 @@
   padding: 0.25rem;
 }
 
+.input-radio-content input,
+.input-radio-content input:focus,
+.input-radio-content input:hover {
+  all: initial;
+  position: absolute;
+  inset: 0;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
 .input-radio-content {
   position: relative;
   height: 40px;
@@ -43,16 +53,6 @@
   padding: 0.83rem 1rem;
   font: var(--font-text-default);
   color: var(--color-text-heading);
-}
-
-.input-radio-content input,
-.input-radio-content input:focus,
-.input-radio-content input:hover {
-  all: initial;
-  position: absolute;
-  inset: 0;
-  cursor: pointer;
-  border-radius: 0.5rem;
 }
 
 .input-radio-content:hover {

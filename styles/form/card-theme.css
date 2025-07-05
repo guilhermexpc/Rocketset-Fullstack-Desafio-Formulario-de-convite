@@ -1,0 +1,40 @@
+.theme-field {
+  margin-top: 1.75rem;
+}
+
+.cards-theme {
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(134px, 1fr)); */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.card-theme {
+  width: 100%;
+  max-width: 134px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0.25rem;
+  background-color: var(--color-shape-button);
+  border-radius: 0.5rem;
+  border: 1px solid var(--color-input-stroke);
+}
+
+.card-theme label {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.card-theme input[type="radio"] {
+  all: initial;
+  position: absolute;
+  inset: 0;
+  cursor: pointer;
+}
+
+.card-theme:has(:checked) {
+  outline: 0.125rem solid var(--color-brand-light);
+  border-radius: 0.5rem;
+}
