@@ -35,6 +35,8 @@
 
   --filter-brand-light: invert(42%) sepia(91%) saturate(728%) hue-rotate(155deg) brightness(99%) contrast(101%);
 
+  --filter-brand-dark: invert(34%) sepia(12%) saturate(5427%) hue-rotate(177deg) brightness(101%) contrast(90%);
+
   /* Font */
   --font-family-Leckerli: "Leckerli One", cursive;
   --font-family-Baloo: "Baloo 2", sans-serif;
@@ -59,6 +61,7 @@ body {
   font: var(--font-text-md);
   color: var(--color-text-body);
   background-color: var(--color-shape-background);
+  overflow: hidden;
 }
 
 a {

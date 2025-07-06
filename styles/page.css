@@ -1,9 +1,13 @@
+main {
+}
+
 .container {
   padding: 1.25rem;
 }
 
 .main-container {
   display: grid;
+  overflow: auto;
 
   /* Aside 400px - 820*/
   grid-template-columns: 32.259% 66.13%;
