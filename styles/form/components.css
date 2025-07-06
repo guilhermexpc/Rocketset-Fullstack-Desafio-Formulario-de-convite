@@ -4,7 +4,6 @@
   flex-direction: column;
   gap: 0.75rem;
   margin-bottom: 1rem;
-  
 }
 
 .data-container {
@@ -79,4 +78,3 @@
 .input-radio-tootle-button-content:hover {
   background-color: var(--color-shape-button);
 }
-

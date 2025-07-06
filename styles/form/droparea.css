@@ -5,7 +5,8 @@
 }
 
 .dropzone {
- display: flex; 
+  display: flex;
+  position: relative;
 }
 
 input[type="file"] {
@@ -17,12 +18,11 @@ input[type="file"] {
   font: var(--font-text-default);
   color: var(--color-text-heading);
   cursor: pointer;
-  height: 40px;
+  height: 2.75rem;
 }
 
-input::file-selector-button {  
+input::file-selector-button {
   opacity: 0;
-  height: 2.5rem;  
-  cursor: pointer; 
+  height: 2.5rem;
+  cursor: pointer;
 }
-
