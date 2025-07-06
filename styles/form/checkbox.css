@@ -1,6 +1,36 @@
 .event-term-checkbox-container {
+  position: relative;
   width: 100%;
   display: flex;
   gap: 0.75rem;
   align-items: center;
 }
+
+.event-term-checkbox-container input[type="checkbox"] {
+  all: unset;
+  position: absolute;
+  inset: 0;
+  cursor: pointer;
+}
+
+.checkbox-image {
+  /* flex-shrink: 0; */
+  width: 1rem;
+  min-width: 0.5rem;
+  aspect-ratio: 1/1;
+  background-image: url(../../src/icons/checkbox.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;  
+}
+
+.event-term-checkbox-container:has(:checked) > .checkbox-image {
+  /* flex-shrink: 0; */
+  width: 1rem;
+  aspect-ratio: 1/1;
+  background-image: url(../../src/icons/chebox-marked.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;    
+}
+
