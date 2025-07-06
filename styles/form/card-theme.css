@@ -5,9 +5,11 @@
 #cards-theme {
   /* display: grid;
   grid-template-columns: repeat(auto-fit, minmax(134px, 1fr)); */
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
   gap: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .card-theme {
