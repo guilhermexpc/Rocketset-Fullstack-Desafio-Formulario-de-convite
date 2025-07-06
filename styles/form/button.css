@@ -1,0 +1,17 @@
+.button {
+  height: 2.5rem;
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--color-input-base);
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  font: var(--font-text-default);
+  color: var(--color-text-heading);
+}
+
+.button img {
+  width: 16px;
+  aspect-ratio: 1/1;
+}

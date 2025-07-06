@@ -30,9 +30,9 @@
   padding: 0.25rem;
 }
 
-.input-radio-content input,
-.input-radio-content input:focus,
-.input-radio-content input:hover {
+.input-radio-tootle-button-content input,
+.input-radio-tootle-button-content input:focus,
+.input-radio-tootle-button-content input:hover {
   all: initial;
   position: absolute;
   inset: 0;
@@ -40,7 +40,7 @@
   border-radius: 0.5rem;
 }
 
-.input-radio-content {
+.input-radio-tootle-button-content {
   position: relative;
   height: 40px;
   width: 100%;
@@ -55,26 +55,27 @@
   color: var(--color-text-heading);
 }
 
-.input-radio-content:hover {
+.input-radio-tootle-button-content:hover {
   background-color: var(--color-shape-button);
 }
 
-.input-radio-content:has(:checked) {
+.input-radio-tootle-button-content:has(:checked) {
   background-color: var(--color-shape-button);
 }
 
-.input-radio-content:has(:checked) img {
+.input-radio-tootle-button-content:has(:checked) img {
   filter: var(--filter-brand-light);
 }
 
-.input-radio-content > img {
+.input-radio-tootle-button-content > img {
   width: 16px;
 }
 
-.input-radio-content > label {
+.input-radio-tootle-button-content > label {
   font-weight: 600;
 }
 
-.input-radio-content:hover {
+.input-radio-tootle-button-content:hover {
   background-color: var(--color-shape-button);
 }
+

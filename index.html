@@ -12,13 +12,14 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/index.css" />
+    <script type="text/javascript" src="jquery-3.7.1.min.js"></script>
   </head>
   <body>
     <div class="container main-container">
       <aside>
         <div class="aside-container">
           <div class="aside-image-shadow"></div>
-          <img src="src/Logo.svg" alt="" />
+          <img src="src/imagens/Logo.svg" alt="" />
           <h2 class="text-logo">Festive</h2>
           <p class="text-heading-secondary">Crie um convite digital para o seu evento</p>
         </div>
@@ -53,12 +54,12 @@
               <div class="input">
                 <label>Tipo</label>
                 <div class="input-radio-container">
-                  <div class="input-radio-content">
+                  <div class="input-radio-tootle-button-content">
                     <img src="src/icons/building-2.svg" alt="" />
                     <label for="event-type">Presencial</label>
                     <input type="radio" id="event-type" name="event-type" checked />
                   </div>
-                  <div class="input-radio-content">
+                  <div class="input-radio-tootle-button-content">
                     <img src="src/icons/video.svg" alt="" />
                     <label for="event-type">Online</label>
                     <input type="radio" id="event-type" name="event-type" />
@@ -150,35 +151,26 @@
 
             <div class="input theme-field">
               <label for="event-main-color">Tema</label>
-              <div class="cards-theme">
-                <div class="card-theme">
+              <div id="cards-theme">
+                <!-- <div class="card-theme">
                   <img src="src/cards/card-aniversario.png" alt="" />
                   <label for="event-theme">Aniversário</label>
                   <input type="radio" name="event-theme" id="event-theme" checked />
-                </div>
+                </div> -->
+              </div>
+            </div>
 
-                <div class="card-theme">
-                  <img src="src/cards/card-aniversario.png" alt="" />
-                  <label for="event-theme">Aniversário</label>
-                  <input type="radio" name="event-theme" id="event-theme" />
-                </div>
-
-                <div class="card-theme">
-                  <img src="src/cards/card-aniversario.png" alt="" />
-                  <label for="event-theme">Aniversário</label>
-                  <input type="radio" name="event-theme" id="event-theme" />
-                </div>
-
-                <div class="card-theme">
-                  <img src="src/cards/card-aniversario.png" alt="" />
-                  <label for="event-theme">Aniversário</label>
-                  <input type="radio" name="event-theme" id="event-theme" />
-                </div>
-
-                <div class="card-theme">
-                  <img src="src/cards/card-aniversario.png" alt="" />
-                  <label for="event-theme">Aniversário</label>
-                  <input type="radio" name="event-theme" id="event-theme" />
+            <div class="event-extra-fields">
+              <div class="input">
+                <label for="event-style">Estilo</label>
+                <input type="checkbox" id="event-style" class="slider" />
+              </div>
+              <div class="input">
+                <label for="event-style">Foto da Capa</label>
+                
+                <div class="button">
+                  <img src="src/icons/upload.svg" alt="">
+                  <span>Selecionar</span>
                 </div>
               </div>
             </div>
@@ -186,5 +178,6 @@
         </form>
       </main>
     </div>
+    <script src="src/scripts/theme.js"></script>
   </body>
 </html>

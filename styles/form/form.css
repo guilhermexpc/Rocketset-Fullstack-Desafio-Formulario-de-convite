@@ -67,3 +67,7 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
 .event-customization {
   margin-top: 48px;
 }
+
+.event-extra-fields {
+  display: flex;
+}

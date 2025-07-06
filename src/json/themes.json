@@ -1,0 +1,54 @@
+[
+  {
+    "img": "../src/cards/card-aniversario.png",
+    "title": "Aniversário"
+  },
+  {
+    "img": "../src/cards/card-infantil.png",
+    "title": "Infantil"
+  },
+
+  {
+    "img": "../src/cards/card-formatura.png",
+    "title": "Formatura"
+  },
+  {
+    "img": "../src/cards/card-casamento.png",
+    "title": "Casamento"
+  },
+
+  {
+    "img": "../src/cards/card-cha-bebe.png",
+    "title": "Chá de bebe"
+  },
+  {
+    "img": "../src/cards/card-cha-panela.png",
+    "title": "Chá de panela"
+  },
+  {
+    "img": "../src/cards/card-carnaval.png",
+    "title": "Carnaval"
+  },
+  {
+    "img": "../src/cards/card-pascoa.png",
+    "title": "Pascoa"
+  },
+
+  {
+    "img": "../src/cards/card-saojoao.png",
+    "title": "São joão"
+  },
+  {
+    "img": "../src/cards/card-halloween.png",
+    "title": "Halooween"
+  },
+  {
+    "img": "../src/cards/card-natal.png",
+    "title": "Natal"
+  },
+
+  {
+    "img": "../src/cards/card-outro.png",
+    "title": "Outros"
+  }
+]
