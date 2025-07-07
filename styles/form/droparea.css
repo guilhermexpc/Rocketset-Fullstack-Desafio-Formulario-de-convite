@@ -9,6 +9,10 @@
   position: relative;
 }
 
+.dropezone-img {
+  filter: var(--filter-brand-light);
+}
+
 input[type="file"] {
   position: absolute;
   background-color: transparent;
