@@ -8,7 +8,7 @@ button {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  background-color: var(--color-brand-dark);
+  /* background-color: var(--color-brand-dark); */
   border-radius: 0.5rem;
   padding: 0.75rem;
   font: var(--font-text-default);

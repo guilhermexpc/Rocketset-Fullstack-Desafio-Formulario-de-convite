@@ -16,7 +16,7 @@
 .checkbox-image {
   /* flex-shrink: 0; */
   width: 1rem;
-  min-width: 0.5rem;
+  min-width: 1rem;
   aspect-ratio: 1/1;
   background-image: url(../../src/icons/checkbox.svg);
   background-repeat: no-repeat;
